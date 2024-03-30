@@ -50,7 +50,8 @@ textarea{
     }
     .star{
         width: 5%;
-        height: 7%
+        height: 7%;
+        padding: 1rem;
     }
     .h1 {
         float: none; /* Remove float */
