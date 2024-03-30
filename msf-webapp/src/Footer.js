@@ -1,6 +1,9 @@
 import React from 'react';
 import './Footer.css';
-
+import facebook from './images/Facebook.avif'
+import insta from './images/Instagram.png'
+import discord from './images/discord.png'
+import x from './images/x.jpeg'
 export default function Footer() {
     return (
         <footer className="Footer">
@@ -20,10 +23,10 @@ export default function Footer() {
 
           
                 <h3 className='companies'>Follow us on:</h3>
-                <img className="image" src="./images/Instagram.png" alt="Instagram" />
-                <img className="image" src="./images/Facebook.avif" alt="Facebook" />
-                <img className="image" src="./images/x.jpeg" alt="X" />
-                <img className="image" src="./images/discord.png" alt="discord" />
+                <img className="image" src={insta} alt="Instagram" />
+                <img className="image" src={facebook} alt="Facebook" />
+                <img className="image" src={x} alt="X" />
+                <img className="image" src={discord} alt="discord" />
             </div>
             <div className='bbb'>
                 <ul className="bullet-list">
