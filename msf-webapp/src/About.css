@@ -51,3 +51,16 @@
     font-weight: 900;
     color: grey
 }
+
+
+/* Media Queries for Mobile View */
+@media only screen and (max-width: 768px) {
+    .CEO1, .CEO2, .container, .container1 {
+        max-width: 100%; /* Remove max-width */
+        margin: 10px;
+    }
+    .container,.container1{
+        font-size: small;
+    }
+    
+}
