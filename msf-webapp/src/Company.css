@@ -79,3 +79,28 @@
   tr:nth-child(even) {
     background-color:#f0f0f0;;
   }
+
+  @media only screen and (max-width: 768px) {
+    .continment{
+      display: flex;
+      flex-direction: column;
+    }
+    iframe, .maps {
+        width: 90%; /* Make the elements full width */
+        max-width: 100%; /* Ensure elements don't exceed the screen width */
+        margin: 2rem auto; /* Adjust margin for better spacing */
+    }
+    iframe, .maps {
+        height: auto; /* Allow height to adjust based on content */
+    }
+
+    h1 {
+        font-size: 24px; /* Decrease font size for smaller screens */
+    }
+
+    table {
+
+      margin-top: 15rem;
+        width: 90%; /* Adjust table width for better fit on small screens */
+    }
+}
