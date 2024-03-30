@@ -1,0 +1,19 @@
+.Propss{
+    border: 0px;
+    margin: 0rem 0rem 0rem 9rem;
+    /*height: 100%;
+    width: 100%;*/
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    flex-grow: 1;
+    padding: 0.5rem;
+}
+.heading{
+    font-style: italic;
+    margin: 1rem 0rem 0.2rem 2rem;
+}
+.App{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,53 @@
+.head{
+    color: white;
+    /*color: rgb(6, 54, 6);*/
+    font-size: 3rem;
+    font-weight: 800;
+    border: 0px;
+    margin: 0rem 0rem 0rem 2rem;
+    float: left;
+    padding: 0.5rem;
+}
+.CEO1{
+    height: 20rem;
+    width: 20rem;
+    float: right;
+    margin: 3rem 5rem 4rem 0rem;
+    box-shadow: 0 10px 20px rgba(0,0,0,10);
+}
+.CEO2{
+    height: 20rem;
+    width: 20rem;
+    float: left;
+    margin: 2rem 0rem 4rem 5rem;
+    background-image: black;
+    box-shadow: 0 10px 20px rgba(0,0,0,10);
+}
+.container{
+    margin: 1rem 0rem 3rem 5rem;
+    height: 20rem;
+    width: 50rem;
+    background-color: white;
+    float: left;
+    box-shadow: 0 10px 20px rgba(0,0,0,10);
+}
+.container1{
+    margin: 1rem 5rem 4rem 0rem;
+    height: 20rem;
+    width: 50rem;
+    background-color: white;
+    float: right;
+    box-shadow: 0 10px 20px rgba(0,0,0,10);
+}
+
+.speech{
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    color: rgb(6, 54, 6);
+}
+.ff{
+    margin:1rem 0rem 0rem 0rem;
+    text-align: center;
+    font-weight: 900;
+    color: grey
+}

@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    background-color: #FFE67C;
+    padding: 30px 25px;
+    align-items: center;
+    height: 60px;
+    max-width: 100%;
+}
+.add{
+    padding: 0.5rem 0rem 0rem 2rem;
+    margin-left: 2rem;
+    font-weight: 200;
+    font-size: medium;
+}
+.nav-item1{
+    padding: 0.5rem 0.5rem 0rem 1rem;
+    margin-left: 2rem;
+    font-weight: 200;
+    font-size: medium;
+}
+.nav-item2{
+    margin-right: 2rem;
+    padding: 0.5rem 0.5rem 0rem 2rem;
+    font-weight: 200;
+    font-size: medium;
+}
+.logo{
+    height: 10rem;
+    width: 10rem;
+}
+.nav-item-head{
+    margin-right: 2rem;
+    color: rgb(6, 54, 6);
+    font-size: xx-large;
+}

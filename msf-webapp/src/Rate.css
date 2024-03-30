@@ -1,0 +1,45 @@
+.star{
+    margin: 0;
+    display: inline;
+    height: 5rem;
+    padding: 2rem;
+    width: 5rem;
+    background-color: none;
+}
+.stars-cont{
+    margin: 3rem 0 0rem 17rem;
+    display: block;
+}
+a{
+    color: black;
+}
+.h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    float: left;
+    font-weight: 100;
+    font-size: medium;
+    margin: 2rem 1rem 2rem 1rem;
+}
+textarea{
+    margin: 0rem 0rem 0rem 19rem ;
+    height: 20rem;
+    font-size: x-large;
+    padding: 5px;
+    width: 40rem;
+    border: 2px solid black;
+    box-shadow: 0 10px 20px rgba(0,0,0,10);
+}
+.navitem-b{
+    justify-content: center;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    background-color: beige;
+    margin: 1rem 0rem 1rem 39rem ;
+    height: 3rem;
+    width: 6rem;
+    color: rgb(6, 54, 6);
+    border-color: transparent;
+    cursor: pointer;
+}
