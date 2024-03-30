@@ -54,3 +54,18 @@ h3 {
     width: 100%;
     text-align: center;
 }
+
+@media only screen and (max-width: 768px) {
+    .bbb, .contact-follow {
+        width: 100%; /* Make the sections full width */
+        margin: 1rem 0; /* Add some margin between sections */
+    }
+    .bbb{
+        text-align: center;
+        justify-content: center;
+    }
+    .image {
+        width: 10%; /* Adjust image width for smaller screens */
+        margin: 1rem auto; /* Center the image horizontally */
+    }
+}
