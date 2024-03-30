@@ -23,7 +23,7 @@ export default function Rate(){
         }
     };
     const handleSubmit= ()=>{
-        axios.post("http://localhost:9000/",{ star: stars, text: textAreaRef.current.value })
+        axios.post("https://msf-portfolio.vercel.app/",{ star: stars, text: textAreaRef.current.value })
         .then(result=>{console.log(result)})
         .catch(error=>console.log(error))
 
