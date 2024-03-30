@@ -1,4 +1,4 @@
-.navbar {
+/*.navbar {
     display: flex;
     background-color: #FFE67C;
     padding: 30px 25px;
@@ -32,4 +32,72 @@
     margin-right: 2rem;
     color: rgb(6, 54, 6);
     font-size: xx-large;
+}*/
+
+.navbar {
+    display: flex;
+    background-color: #FFE67C;
+    padding: 30px 25px;
+    align-items: center;
+    height: 60px;
+    max-width: 100%;
 }
+
+.add {
+    padding: 0.5rem 0rem 0rem 2rem;
+    margin-left: 2rem;
+    font-weight: 200;
+    font-size: medium;
+}
+
+.nav-item1 {
+    padding: 0.5rem 0.5rem 0rem 1rem;
+    margin-left: 2rem;
+    font-weight: 200;
+    font-size: medium;
+}
+
+.nav-item2 {
+    margin-right: 2rem;
+    padding: 0.5rem 0.5rem 0rem 2rem;
+    font-weight: 200;
+    font-size: medium;
+}
+
+.logo {
+    height: 10rem;
+    width: 10rem;
+}
+
+.nav-item-head {
+    margin-right: 2rem;
+    color: rgb(6, 54, 6);
+    font-size: xx-large;
+}
+
+/* Media Queries for Mobile View */
+@media only screen and (max-width: 768px) {
+    .navbar {
+      /*  padding: 20px 15px; /* Adjust padding */
+        height: auto; /* Allow height to adjust */
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Align items to the start */
+        justify-content: center;
+    }
+
+    .logo {
+        height: 15rem; /* Adjust logo size */
+        width: 20rem; /* Adjust logo size */
+        margin-bottom: 5px; /* Add some space below the logo */
+    }
+
+    .nav-item1,
+    .nav-item2,
+    .add,
+    .nav-item-head {
+        margin: 0.5rem 0; /* Adjust margin for all items */
+        padding: 0.5rem 1rem; /* Adjust padding for all items */
+        font-size: small; /* Adjust font size for smaller screens */
+    }
+}
+
