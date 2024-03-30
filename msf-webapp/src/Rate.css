@@ -43,3 +43,27 @@ textarea{
     border-color: transparent;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 768px) {
+    .stars-cont {
+        margin: 3rem auto 0; /* Centered horizontally and adjusted margin top */
+    }
+    .star{
+        width: 6%;
+        height: 7%
+    }
+    .h1 {
+        float: none; /* Remove float */
+        margin: 2rem auto; /* Centered horizontally */
+    }
+
+    textarea {
+        width: 95%;
+        margin: 0 auto; /* Centered horizontally */
+    }
+
+    .navitem-b {
+        margin: 1rem auto;
+        margin-left: 20rem; /* Centered horizontally */
+    }
+}
