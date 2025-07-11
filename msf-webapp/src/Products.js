@@ -6,7 +6,7 @@ export default function Product(props) {
     
     const loadImage = async () => {
         try {
-            const imageModule = await import(`./images/${props.value}.webp`);
+            const imageModule = await import(`./images/${props.value}.png`);
             setImageSrc(imageModule.default);
         } catch (error) {
             console.error(`Image for '${props.value}' not found.`);
@@ -14,8 +14,6 @@ export default function Product(props) {
     };
 
     loadImage();
-    console.log(imageSrc)
-    console.log("what")
     if (!imageSrc) {
         return (
             <div className="boxes">
