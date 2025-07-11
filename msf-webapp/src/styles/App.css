@@ -11,13 +11,34 @@ body {
     overflow-x: hidden;
 }
 
-#root {
+.App {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
 /* Smooth scrolling */
 html {
     scroll-behavior: smooth;
+}
+
+/* Section spacing */
+section {
+    padding: 80px 0;
+}
+
+@media (max-width: 768px) {
+    section {
+        padding: 60px 0;
+    }
+    
+    .container {
+        padding: 0 16px;
+    }
 }
