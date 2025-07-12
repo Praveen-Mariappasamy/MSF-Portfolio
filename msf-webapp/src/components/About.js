@@ -9,15 +9,15 @@ export default function About() {
                     <div className="about-text">
                         <h2>About M.S.Forms and Print</h2>
                         <p className="about-description">
-                            With over 50 years of excellence in the printing industry, M.S.Forms and Print has been 
-                            Chennai's trusted partner for all printing needs since 1971. We specialize in high-quality 
+                            With over 24+ years of excellence in the printing industry, M.S.Forms and Print has been 
+                            Chennai's trusted partner for all printing needs since 2001. We specialize in high-quality 
                             commercial printing solutions, serving businesses across various industries.
                         </p>
                         <div className="about-features">
                             <div className="feature">
                                 <div className="feature-icon">🏆</div>
                                 <div className="feature-text">
-                                    <h3>50+ Years Experience</h3>
+                                    <h3>24+ Years Experience</h3>
                                     <p>Decades of expertise in commercial printing</p>
                                 </div>
                             </div>
@@ -39,7 +39,7 @@ export default function About() {
                     </div>
                     <div className="about-stats">
                         <div className="stat">
-                            <div className="stat-number">50+</div>
+                            <div className="stat-number">24+</div>
                             <div className="stat-label">Years in Business</div>
                         </div>
                         <div className="stat">

@@ -22,6 +22,33 @@
     margin: auto;
 }
 
+.cta-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 16px 24px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.cta-button.secondary {
+    background: transparent;
+    color: #90cdf4;
+    border-color: #90cdf4;
+}
+
+.cta-button.secondary:hover {
+    background: #90cdf4;
+    color: #2d3748;
+    transform: translateY(-2px);
+}
+
+
 .hero-content {
     display: flex;
     align-items: center;

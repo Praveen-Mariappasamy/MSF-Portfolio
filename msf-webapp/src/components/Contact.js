@@ -15,34 +15,10 @@ export default function Contact() {
                         
                         <div className="contact-details">
                             <div className="contact-item">
-                                <div className="contact-icon">📍</div>
-                                <div className="contact-text">
-                                    <h3>Address</h3>
-                                    <p>Moulivakkam, Chennai-600125<br />Tamil Nadu, India</p>
-                                </div>
-                            </div>
-                            
-                            <div className="contact-item">
-                                <div className="contact-icon">📞</div>
-                                <div className="contact-text">
-                                    <h3>Phone</h3>
-                                    <p><a href="tel:+919840122784">+91 9840122784</a></p>
-                                </div>
-                            </div>
-                            
-                            <div className="contact-item">
-                                <div className="contact-icon">✉️</div>
-                                <div className="contact-text">
-                                    <h3>Email</h3>
-                                    <p><a href="mailto:msf1971@gmail.com">msf1971@gmail.com</a></p>
-                                </div>
-                            </div>
-                            
-                            <div className="contact-item">
                                 <div className="contact-icon">🏢</div>
                                 <div className="contact-text">
                                     <h3>Business Hours</h3>
-                                    <p>Monday - Saturday: 9:00 AM - 6:00 PM<br />Sunday: Closed</p>
+                                    <p>Monday - Saturday: 9:00 AM - 7:00 PM<br />Sunday: Closed</p>
                                 </div>
                             </div>
                         </div>

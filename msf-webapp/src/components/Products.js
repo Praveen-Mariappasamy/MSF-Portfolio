@@ -13,8 +13,20 @@ const productList = [
     "Printed Carbonless Paper",
     "Offset Printing Paper"
 ];
+const redirectionLinks = [
+    "https://www.indiamart.com/msformsprint/paper-roll.html#21907582088",
+    "https://www.indiamart.com/msformsprint/accounting-ledger-book.html#11573765930",
+    "https://www.indiamart.com/msformsprint/computer-form.html#11603181197",
+    "https://www.indiamart.com/msformsprint/printed-sticker.html#11574019455",
+    "https://www.indiamart.com/msformsprint/barcode-sticker.html",
+    "https://www.indiamart.com/msformsprint/computer-paper.html",
+    "https://www.indiamart.com/msformsprint/billing-roll.html",
+    "https://www.indiamart.com/msformsprint/printed-paper-tag.html#20594108433",
+    "https://www.indiamart.com/msformsprint/carbonless-paper.html",
+    "https://www.indiamart.com/msformsprint/offset-printing-paper.html#20594108673"
+]
 
-function ProductCard({ product }) {
+function ProductCard({ product, redirection }) {
     const [imageSrc, setImageSrc] = useState(null);
     const [imageLoaded, setImageLoaded] = useState(false);
     
@@ -33,7 +45,7 @@ function ProductCard({ product }) {
     }, [product]);
 
     return (
-        <a href="#" className="product-card" aria-label={`Learn more about ${product}`}>
+        <a href={redirection} className="product-card" aria-label={`Learn more about ${product}`}>
             <div className="product-image-container">
                 {!imageLoaded ? (
                     <div className="product-image-placeholder">
@@ -70,7 +82,7 @@ export default function Products() {
                 </div>
                 <div className="products-grid">
                     {productList.map((product, index) => (
-                        <ProductCard key={index} product={product} />
+                        <ProductCard key={index} product={product} redirection={redirectionLinks[index]}/>
                     ))}
                 </div>
             </div>

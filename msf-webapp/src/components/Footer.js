@@ -10,19 +10,14 @@ export default function Footer() {
             <div className="container">
                 <div className="footer-content">
                     <div className="footer-main">
-                        <div className="footer-brand">
+                        <div className="footer-brand full-width">
                             <div className="footer-logo">
                                 <img src={logo} alt="M.S.Forms and Print Logo" />
                                 <div className="footer-company-name">M.S.Forms and Print</div>
                             </div>
-                            <p className="footer-description">
-                                Your trusted partner for professional printing solutions since 1971. 
-                                We deliver quality printing services with over 50 years of experience 
-                                in the industry.
-                            </p>
                             <div className="footer-gst">
                                 <span className="footer-gst-label">GST:</span>
-                                <span className="footer-gst-number">33XXXXX1234X1XX</span>
+                                <span className="footer-gst-number">33AAHFM7998J1ZK</span>
                             </div>
                         </div>
                         
@@ -32,8 +27,6 @@ export default function Footer() {
                                 <li><a href="#about">📋 About Us</a></li>
                                 <li><a href="#products">📦 Our Products</a></li>
                                 <li><a href="#contact">📞 Contact Us</a></li>
-                                <li><a href="#">💼 Services</a></li>
-                                <li><a href="#">📄 Quote Request</a></li>
                             </ul>
                         </div>
                         
@@ -44,8 +37,7 @@ export default function Footer() {
                                     <span className="footer-contact-icon">📍</span>
                                     <div className="footer-contact-text">
                                         Moulivakkam,<br />
-                                        Chennai-600125,<br />
-                                        Tamil Nadu, India
+                                        Chennai-600125
                                     </div>
                                 </div>
                                 <div className="footer-contact-item">

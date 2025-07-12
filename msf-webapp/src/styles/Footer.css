@@ -162,7 +162,6 @@
 
 .footer-bottom {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
-    padding-top: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -215,8 +214,17 @@
     }
     
     .footer-main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 15px;
+        flex-wrap: wrap;
         grid-template-columns: 1fr;
         gap: 40px;
+    }
+
+    .full-width {
+        width: 100%;
     }
     
     .footer-bottom {
