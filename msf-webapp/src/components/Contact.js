@@ -32,7 +32,7 @@ export default function Contact() {
                                 <a href="tel:+919840122784" className="cta-button primary">
                                     📞 Call Now
                                 </a>
-                                <a href="mailto:msf1971@gmail.com" className="cta-button secondary">
+                                <a href="mailto:msformsandprint@gmail.com" className="cta-button secondary">
                                     ✉️ Send Email
                                 </a>
                             </div>

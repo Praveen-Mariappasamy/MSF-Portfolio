@@ -9,7 +9,7 @@ export default function Footer() {
         <footer className="footer">
             <div className="container">
                 <div className="footer-content">
-                    <div className="footer-main">
+                    <div className="footer-main" style={{ display: 'flex' }}>
                         <div className="footer-brand full-width">
                             <div className="footer-logo">
                                 <img src={logo} alt="M.S.Forms and Print Logo" />
@@ -20,18 +20,9 @@ export default function Footer() {
                                 <span className="footer-gst-number">33AAHFM7998J1ZK</span>
                             </div>
                         </div>
-                        
+
                         <div className="footer-section">
-                            <h3>Quick Links</h3>
-                            <ul className="footer-links">
-                                <li><a href="#about">📋 About Us</a></li>
-                                <li><a href="#products">📦 Our Products</a></li>
-                                <li><a href="#contact">📞 Contact Us</a></li>
-                            </ul>
-                        </div>
-                        
-                        <div className="footer-section">
-                            <h3>Contact Info</h3>
+                            <h3 style={{ textAlign: 'center' }}>Contact Info</h3>
                             <div className="footer-contact-info">
                                 <div className="footer-contact-item">
                                     <span className="footer-contact-icon">📍</span>
@@ -43,13 +34,15 @@ export default function Footer() {
                                 <div className="footer-contact-item">
                                     <span className="footer-contact-icon">📞</span>
                                     <div className="footer-contact-text">
-                                        <a href="tel:+919840122784">+91 9840122784</a>
+                                        <a href="tel:+919840122784">9840122784</a>
+                                        <span> | </span>
+                                        <a href="tel:+919840822166">9840822166</a>
                                     </div>
                                 </div>
                                 <div className="footer-contact-item">
                                     <span className="footer-contact-icon">✉️</span>
                                     <div className="footer-contact-text">
-                                        <a href="mailto:msf1971@gmail.com">msf1971@gmail.com</a>
+                                        <a href="mailto:msformsandprint@gmail.com">msformsandprint@gmail.com</a>
                                     </div>
                                 </div>
                             </div>
