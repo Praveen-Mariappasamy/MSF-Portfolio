@@ -7,9 +7,9 @@ export default function About() {
             <div className="container">
                 <div className="about-content">
                     <div className="about-text">
-                        <h2>About M.S.Forms and Print</h2>
+                        <h2>About MS Forms and Print</h2>
                         <p className="about-description">
-                            With over 24+ years of excellence in the printing industry, M.S.Forms and Print has been 
+                            With over 24+ years of excellence in the printing industry, MS Forms and Print has been 
                             Chennai's trusted partner for all printing needs since 2001. We specialize in high-quality 
                             commercial printing solutions, serving businesses across various industries.
                         </p>

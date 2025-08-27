@@ -12,8 +12,8 @@ export default function Footer() {
                     <div className="footer-main" style={{ display: 'flex' }}>
                         <div className="footer-brand full-width">
                             <div className="footer-logo">
-                                <img src={logo} alt="M.S.Forms and Print Logo" />
-                                <div className="footer-company-name">M.S.Forms and Print</div>
+                                <img src={logo} alt="MS Forms and Print Logo" />
+                                <div className="footer-company-name">MS Forms and Print</div>
                             </div>
                             <div className="footer-gst">
                                 <span className="footer-gst-label">GST:</span>
@@ -51,7 +51,7 @@ export default function Footer() {
                     
                     <div className="footer-bottom">
                         <div className="footer-copyright">
-                            © {currentYear} M.S.Forms and Print. All rights reserved.
+                            © {currentYear} MS Forms and Print. All rights reserved.
                         </div>
                         <div className="footer-made-with">
                             Made with <span className="footer-heart">❤️</span> for quality printing
