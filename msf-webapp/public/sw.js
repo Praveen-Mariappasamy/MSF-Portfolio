@@ -1,4 +1,4 @@
-let cache = 'v3';
+let cache = 'v4';
 
 function CACHE_NAME() {
   return `v${cache}`;
